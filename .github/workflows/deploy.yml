@@ -1,4 +1,4 @@
-name: s3 deployment
+name: s3 Deployment
 
 on:
   push:
