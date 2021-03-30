@@ -3,6 +3,7 @@ name: s3 deployment
 on:
   push:
     branches: [develop] # the branch we want this to run on
+    workflow_dispatch:
 
 jobs:
   build:
