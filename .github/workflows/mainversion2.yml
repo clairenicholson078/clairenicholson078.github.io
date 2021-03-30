@@ -1,6 +1,6 @@
 name: s3 deployment
 
-on:
+on:[pull_request, workflow_dispatch]
   push:
     branches: [develop] # the branch we want this to run on
 
